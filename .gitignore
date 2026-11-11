@@ -1,0 +1,21 @@
+# B 站登录态与二维码临时文件（含凭据，绝不入库）
+cookies.txt
+*_cookies.txt
+session.json
+qr_session.json
+_bili_login/
+bili_login_qr*.png
+bili_login_qr*.svg
+bili_login_qr*.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地构建与发布产物
+dist/
+*.skill
+.DS_Store
+Thumbs.db
